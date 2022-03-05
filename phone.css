@@ -1,0 +1,82 @@
+.navbar {
+    flex-direction: column;
+}
+
+.navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#home {
+    height: 370px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+#services {
+    flex-direction: column;
+}
+
+#services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#about {
+    flex-wrap: wrap;
+}
+
+#about-container::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url('images/bg2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 940px;
+    opacity: 0.89;
+}
+
+#about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+
+#about-info h2 {
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: auto;
+}
+
+#about img {
+    width: 250px;
+    padding: 6px;
+    margin: 20px auto;
+    height: auto;
+}
+
+#contact-box form {
+    width: 80%;
+}
+
+.h-primary {
+    font-size: 26px;
+}
